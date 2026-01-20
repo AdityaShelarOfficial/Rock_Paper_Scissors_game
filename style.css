@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: #081b31;
+    height: 5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+    transform:scale(0.85);
+}
+
+/* Image inside the circle */
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.msg-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#msg {
+    background-color: #31093c;
+    color:#fff;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    display: inline;
+}
+.msg-container:hover{
+    transform:scale(0.85);
+    cursor: pointer;
+}
